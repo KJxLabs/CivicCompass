@@ -1,0 +1,9 @@
+{
+  "name": "civic-compass",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-wayfinding.mjs",
+    "build": "node scripts/validate-wayfinding.mjs && node scripts/build.mjs"
+  }
+}
